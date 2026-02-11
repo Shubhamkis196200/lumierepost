@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LumierePost</title>
+    <link>https://lumierepost.netlify.app</link>
+    <description>Independent arts and culture criticism for the modern age</description>
+    <language>en-us</language>
+    <atom:link href="https://lumierepost.netlify.app/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Best Films of 2026 So Far</title>
+      <link>https://lumierepost.netlify.app/article/best-films-2026-so-far</link>
+      <guid isPermaLink="true">https://lumierepost.netlify.app/article/best-films-2026-so-far</guid>
+      <description>Halfway through a remarkable year for cinema, we survey the landscape of a medium in full creative bloom.</description>
+      <pubDate>Sun, 08 Feb 2026 00:00:00 GMT</pubDate>
+      <category>Film</category>
+      <author>Margaux Delacroix</author>
+    </item>
+    <item>
+      <title>The Resurgence of Jazz in the Streaming Era</title>
+      <link>https://lumierepost.netlify.app/article/jazz-resurgence-streaming-era</link>
+      <guid isPermaLink="true">https://lumierepost.netlify.app/article/jazz-resurgence-streaming-era</guid>
+      <description>Jazz was supposed to be dying. Instead, streaming platforms have catalyzed a renaissance.</description>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 GMT</pubDate>
+      <category>Music</category>
+      <author>Elijah Okonkwo</author>
+    </item>
+    <item>
+      <title>The AI Art Controversy Engulfing Major Museums</title>
+      <link>https://lumierepost.netlify.app/article/ai-art-controversy-museums</link>
+      <guid isPermaLink="true">https://lumierepost.netlify.app/article/ai-art-controversy-museums</guid>
+      <description>From MoMA to the Tate, institutions are forced to answer: can a machine make art?</description>
+      <pubDate>Tue, 03 Feb 2026 00:00:00 GMT</pubDate>
+      <category>Art</category>
+      <author>Saoirse Chen</author>
+    </item>
+    <item>
+      <title>Nobel Prize in Literature 2026: Who Will Stockholm Choose?</title>
+      <link>https://lumierepost.netlify.app/article/nobel-prize-literature-predictions-2026</link>
+      <guid isPermaLink="true">https://lumierepost.netlify.app/article/nobel-prize-literature-predictions-2026</guid>
+      <description>The Nobel Prize remains literature's most prestigious and debated award.</description>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 GMT</pubDate>
+      <category>Books</category>
+      <author>Théo Marchand</author>
+    </item>
+    <item>
+      <title>Broadway's Boldest New Season in a Decade</title>
+      <link>https://lumierepost.netlify.app/article/broadway-boldest-new-season</link>
+      <guid isPermaLink="true">https://lumierepost.netlify.app/article/broadway-boldest-new-season</guid>
+      <description>After years of playing it safe, Broadway is taking extraordinary creative risks.</description>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 GMT</pubDate>
+      <category>Theater</category>
+      <author>Priya Nair</author>
+    </item>
+    <item>
+      <title>The Sustainable Fashion Revolution Has Finally Arrived</title>
+      <link>https://lumierepost.netlify.app/article/sustainable-fashion-revolution</link>
+      <guid isPermaLink="true">https://lumierepost.netlify.app/article/sustainable-fashion-revolution</guid>
+      <description>The fashion industry is finally confronting its environmental crisis from the bottom up.</description>
+      <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
+      <category>Fashion</category>
+      <author>Cassandra Voss</author>
+    </item>
+    <item>
+      <title>Peak TV Is Over. Here's What Survived.</title>
+      <link>https://lumierepost.netlify.app/article/peak-tv-what-survived</link>
+      <guid isPermaLink="true">https://lumierepost.netlify.app/article/peak-tv-what-survived</guid>
+      <description>After excess, the streaming wars produced Darwinian winnowing. What remains may be better than ever.</description>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 GMT</pubDate>
+      <category>Television</category>
+      <author>Dominic Hale</author>
+    </item>
+    <item>
+      <title>The Independent Film Renaissance Nobody Predicted</title>
+      <link>https://lumierepost.netlify.app/article/independent-film-renaissance</link>
+      <guid isPermaLink="true">https://lumierepost.netlify.app/article/independent-film-renaissance</guid>
+      <description>While studios chase franchises, independents create vital cinema on shoestring budgets.</description>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 GMT</pubDate>
+      <category>Film</category>
+      <author>Margaux Delacroix</author>
+    </item>
+    <item>
+      <title>The Albums That Are Defining 2026</title>
+      <link>https://lumierepost.netlify.app/article/album-reviews-top-releases-2026</link>
+      <guid isPermaLink="true">https://lumierepost.netlify.app/article/album-reviews-top-releases-2026</guid>
+      <description>January 2026 has obliterated conventions with a remarkably strong crop of albums.</description>
+      <pubDate>Sun, 18 Jan 2026 00:00:00 GMT</pubDate>
+      <category>Music</category>
+      <author>Elijah Okonkwo</author>
+    </item>
+    <item>
+      <title>Venice Architecture Biennale 2026: A Preview</title>
+      <link>https://lumierepost.netlify.app/article/architecture-biennale-preview-2026</link>
+      <guid isPermaLink="true">https://lumierepost.netlify.app/article/architecture-biennale-preview-2026</guid>
+      <description>Under "Sheltering Futures," this year's Biennale promises to be the most urgent edition in history.</description>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
+      <category>Art</category>
+      <author>Saoirse Chen</author>
+    </item>
+  </channel>
+</rss>
