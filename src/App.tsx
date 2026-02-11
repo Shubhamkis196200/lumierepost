@@ -1,37 +1,27 @@
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
-import { HelmetProvider } from 'react-helmet-async';
-import { useEffect } from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import HomePage from './pages/HomePage';
-import ArticlePage from './pages/ArticlePage';
-import CategoryPage from './pages/CategoryPage';
-import AboutPage from './pages/AboutPage';
-
-function ScrollToTop() {
-  const { pathname } = useLocation();
-  useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
-  return null;
-}
+import { Routes, Route } from 'react-router-dom'
+import Layout from './components/Layout'
+import Home from './pages/Home'
+import ToolsIndex from './pages/ToolsIndex'
+import BlogIndex from './pages/BlogIndex'
+import About from './pages/About'
+import { toolRoutes } from './data/toolRegistry'
+import { blogRoutes } from './data/blogRegistry'
 
 export default function App() {
   return (
-    <HelmetProvider>
-      <BrowserRouter>
-        <ScrollToTop />
-        <div className="min-h-screen flex flex-col bg-cream">
-          <Header />
-          <div className="flex-1">
-            <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/article/:slug" element={<ArticlePage />} />
-              <Route path="/category/:category" element={<CategoryPage />} />
-              <Route path="/about" element={<AboutPage />} />
-            </Routes>
-          </div>
-          <Footer />
-        </div>
-      </BrowserRouter>
-    </HelmetProvider>
-  );
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="tools" element={<ToolsIndex />} />
+        <Route path="blog" element={<BlogIndex />} />
+        <Route path="about" element={<About />} />
+        {toolRoutes.map(t => (
+          <Route key={t.path} path={`tools/${t.path}`} element={<t.component />} />
+        ))}
+        {blogRoutes.map(b => (
+          <Route key={b.path} path={`blog/${b.path}`} element={<b.component />} />
+        ))}
+      </Route>
+    </Routes>
+  )
 }
