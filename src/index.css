@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #FFFBF0;
+  --color-cream-dark: #F5F0E1;
+  --color-gold: #C8A951;
+  --color-gold-light: #E8D48B;
+  --color-gold-dark: #A08530;
+  --color-purple: #2D1B4E;
+  --color-purple-light: #4A2D7A;
+  --color-purple-muted: #6B5B8D;
+  --color-charcoal: #1A1A2E;
+  --color-warm-gray: #6B6B7B;
+  --color-light-gray: #E8E6F0;
+  --font-serif: 'Georgia', 'Times New Roman', serif;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-cream);
+    color: var(--color-charcoal);
+    line-height: 1.7;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-purple);
+  }
+}
+
+@layer utilities {
+  .gold-gradient {
+    background: linear-gradient(135deg, var(--color-gold), var(--color-gold-light));
+  }
+  .purple-gradient {
+    background: linear-gradient(135deg, var(--color-purple), var(--color-purple-light));
+  }
+  .text-gold-gradient {
+    background: linear-gradient(135deg, var(--color-gold), var(--color-gold-dark));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .card-shadow {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.04);
+  }
+  .card-hover {
+    transition: all 0.3s ease;
+  }
+  .card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+  }
+}
